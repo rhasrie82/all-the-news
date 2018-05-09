@@ -1,0 +1,29 @@
+{
+  "name": "all-the-news",
+  "version": "1.0.0",
+  "description": "All The News That's Fit to Scrape",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhasrie82/all-the-news.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rhasrie82/all-the-news/issues"
+  },
+  "homepage": "https://github.com/rhasrie82/all-the-news#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.17",
+    "morgan": "^1.9.0",
+    "path": "^0.12.7"
+  }
+}
